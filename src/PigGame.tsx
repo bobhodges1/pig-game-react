@@ -17,7 +17,7 @@ export function PigGame() {
       Roll!
     </button>
     <div>
-      <p>Last</p> roll was a <span className="die">{lastRoll}</span>
+      Last roll was a <span className="die">{lastRoll}</span>
     </div>
 
   </div>;
