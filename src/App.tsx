@@ -1,9 +1,12 @@
+import { PigGame } from "./PigGame"
 
 
 function App() {
- 
 
-  return <div>Piggy!</div>
+  
+
+  return <PigGame />
 }
 
 export default App
+
