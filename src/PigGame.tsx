@@ -19,6 +19,7 @@ export function PigGame() {
   }
 
   function bankTurnScore() {
+    setTurnScore(0)
     setTotalScore(totalScore + turnScore)
   }
 
