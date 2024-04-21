@@ -36,10 +36,10 @@ export function PigGame() {
 
 
   function calculateWinState() {
-    if (p1TotalScore >= 10) {
+    if (p1TotalScore >= 100) {
       return "player1 win";
     }
-    else if (p2TotalScore >= 10) {
+    else if (p2TotalScore >= 100) {
       return "player2 win";
     }
     else {
