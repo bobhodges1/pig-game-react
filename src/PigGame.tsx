@@ -47,6 +47,17 @@ export function PigGame() {
     }
   }
 
+  function restartGame() {
+    setLastRoll(null)
+    setP1TotalScore(0)
+    setP2TotalScore(0)
+    setTurnScore(0)
+    setWhoseTurnIsIt("player1")
+  }
+
+
+
+
   const winState = calculateWinState()
 
   return <div>
@@ -75,6 +86,7 @@ export function PigGame() {
 
     {winState === "player1 win" && <div>PLAYER 1 WINS</div>}
     {winState === "player2 win" && <div>PLAYER 2 WINS</div>}
+    {winState !== "progressing" && <button onClick={restartGame}>Reset Game</button>}
 
 
 
