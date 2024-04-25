@@ -84,8 +84,8 @@ export function PigGame() {
       <p>Player 2 - {p2TotalScore}🔵 </p></div>}
 
 
-    {winState === "player1 win" && <div>PLAYER 1 WINS!</div>}
-    {winState === "player2 win" && <div>PLAYER 2 WINS!</div>}
+    {winState === "player1 win" && <div>PLAYER 1 WINS!!</div>}
+    {winState === "player2 win" && <div>PLAYER 2 WINS!!</div>}
     {winState !== "progressing" && <button onClick={restartGame}>Reset Game</button>}
 
 
